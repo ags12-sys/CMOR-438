@@ -1,30 +1,39 @@
 # CMOR-438: Data Science and Machine Learning
 
-**Purpose:** To implement Supervised and Unsupervised machine learning using the real data sets _____, ____, and ____. 
+**Purpose:** To implement supervised and unsupervised machine learning using the real data sets _____, ____, and ____.
 
-**Libraries:** This repository uses the libraries NumPy, Matplotlib, Pandas, Seaborn, and SciKit Learn in order to implement the Supervised and Unsupervised Learning models.
+---
 
-### Supervised Learning
+## Supervised Learning
 
-Included in the Supervised Learning folder is implementations of the following models:
+The Supervised Learning folder contains implementations of the following models:
 
--Perceptron
--Gradient Descent
--Linear Regression
--Logistic Regression
--Neural Networks 
--K-Nearest Neighbors
--Decision Trees
--Ensemble
--Multilayer Perceptron
--Random Forest
+- Perceptron
+- Gradient Descent
+- Linear Regression
+- Logistic Regression
+- Neural Networks
+- K-Nearest Neighbors (KNN)
+- Decision Trees
+- Ensemble methods
+- Multilayer Perceptron (MLP)
+- Random Forest
 
-Each other these folders include a README.md which describes the models in detail as well as how to reproduce the results provided. 
+Each of these folders includes a README.md that describes the model details and explains how to reproduce the provided results.
 
-### Unsupervised Learning
+---
 
-Included in the Unsupervised Learning folder is implementations of the following models:
+## Unsupervised Learning
 
--Principle Component Analysis
--K-Means Clustering
--DBSCAN
+The Unsupervised Learning folder contains implementations of the following models:
+
+- Principal Component Analysis (PCA)
+- K-Means Clustering
+- DBSCAN
+
+Each of these folders includes a README.md that describes the model details and explains how to reproduce the provided results.
+
+---
+Notes:
+- Folder-level README files contain reproduction instructions and model-specific details.
+- Replace the placeholders for the dataset names (_____) with the actual dataset names when available.
