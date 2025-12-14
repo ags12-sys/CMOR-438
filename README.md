@@ -2,6 +2,8 @@
 
 **Purpose:** To implement supervised and unsupervised machine learning using the real data sets _____, ____, and ____.
 
+**Libraries:** This repository uses the libraries SciKit Learn, Matplotlib, NumPy, Pandas, and Seaborn to implement both the supervised and unsupervised learning models. 
+
 ---
 
 ## Supervised Learning
