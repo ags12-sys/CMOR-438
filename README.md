@@ -1,6 +1,6 @@
 # CMOR-438: Data Science and Machine Learning
 
-**Purpose:** To implement supervised and unsupervised machine learning using the real data sets _____, ____, and ____.
+**Purpose:** To implement supervised and unsupervised machine learning using the real data sets Wine Quality and California Housing.
 
 **Libraries:** This repository uses the libraries SciKit Learn, Matplotlib, NumPy, Pandas, and Seaborn to implement both the supervised and unsupervised learning models. 
 
@@ -34,8 +34,3 @@ The Unsupervised Learning folder contains implementations of the following model
 - DBSCAN
 
 Each of these folders includes a README.md that describes the model details and explains how to reproduce the provided results.
-
----
-Notes:
-- Folder-level README files contain reproduction instructions and model-specific details.
-- Replace the placeholders for the dataset names (_____) with the actual dataset names when available.
