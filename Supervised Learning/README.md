@@ -25,7 +25,7 @@ This repository implements and compares several classical and modern supervised 
 -Generalization: Model performance on unseen data
 
 ## Algorithms Implemented
-### Perceptron
+### Perceptron:
 
 -Linear binary classifier
 
@@ -35,7 +35,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Best suited for linearly separable data
 
-### Gradient Descent
+### Gradient Descent:
 
 -Iterative optimization algorithm
 
@@ -45,7 +45,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Variants include batch, stochastic, and mini-batch gradient descent
 
-### Linear Regression
+### Linear Regression:
 
 -Models linear relationships between features and a continuous target
 
@@ -55,7 +55,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Common baseline for regression tasks
 
-### Logistic Regression
+### Logistic Regression:
 
 -Probabilistic linear classifier
 
@@ -65,7 +65,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Widely used due to simplicity and interpretability
 
-### Neural Networks
+### Neural Networks:
 
 -Composed of layers of interconnected neurons
 
@@ -75,7 +75,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Applicable to both regression and classification
 
-### K-Nearest Neighbors (KNN)
+### K-Nearest Neighbors (KNN):
 
 -Instance-based, non-parametric algorithm
 
@@ -85,7 +85,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Sensitive to feature scaling and distance metrics
 
-### Decision Tree
+### Decision Tree:
 
 -Tree-based model using recursive feature splits
 
@@ -95,7 +95,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Prone to overfitting without regularization
 
-### Ensemble Methods
+### Ensemble Methods:
 
 -Combine multiple models to improve robustness
 
@@ -105,7 +105,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Often outperform single models
 
-### Multilayer Perceptron (MLP)
+### Multilayer Perceptron (MLP):
 
 -Feedforward neural network with hidden layers
 
@@ -115,7 +115,7 @@ This repository implements and compares several classical and modern supervised 
 
 -General-purpose supervised learning model
 
-### Random Forest
+### Random Forest:
 
 -Ensemble of decision trees
 
@@ -125,17 +125,7 @@ This repository implements and compares several classical and modern supervised 
 
 -Provides feature importance estimates
 
-### Model Evaluation
-
--Models are evaluated using task-appropriate metrics, including:
-
--Accuracy, precision, recall, F1-score (classification)
-
--Mean squared error and R² (regression)
-
--Cross-validation for performance stability
-
-### Goals
+## Goals
 
 -Compare supervised learning algorithms under consistent conditions
 
