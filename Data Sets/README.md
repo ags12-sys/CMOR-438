@@ -1,7 +1,7 @@
 # Wine Quality Dataset
 ## Description
 
-Red and white wine variants of the Portuguese "Vinho Verde" wine used for the assessment of quality.
+Red and white wine variants of the Portuguese "Vinho Verde" wine used for the assessment of quality. Found in the wine+quality.zip folder.
 
 ## Data Files
 
@@ -36,7 +36,7 @@ Red and white wine variants of the Portuguese "Vinho Verde" wine used for the as
 # California Housing Dataset
 ## Description
 
-Based on 1990 California census data used to predict housing values.
+Based on 1990 California census data used to predict housing values. Found under the archive(1).zip folder.
 
 ## Features (Input Variables)
 
