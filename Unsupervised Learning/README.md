@@ -26,7 +26,7 @@ This repository explores several foundational unsupervised learning algorithms a
 
 -Structure Discovery: Identifying latent patterns or groupings
 
-# Algorithms Implemented
+## Algorithms Implemented
 ## Principal Component Analysis (PCA)
 
 -Linear dimensionality reduction technique
