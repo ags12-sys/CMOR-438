@@ -27,7 +27,7 @@ This repository explores several foundational unsupervised learning algorithms a
 -Structure Discovery: Identifying latent patterns or groupings
 
 ## Algorithms Implemented
-### Principal Component Analysis (PCA)
+### Principal Component Analysis (PCA):
 
 -Linear dimensionality reduction technique
 
@@ -37,7 +37,7 @@ This repository explores several foundational unsupervised learning algorithms a
 
 -Commonly used for visualization, noise reduction, and preprocessing
 
-### K-Means Clustering
+### K-Means Clustering:
 
 -Partition-based clustering algorithm
 
@@ -47,7 +47,7 @@ This repository explores several foundational unsupervised learning algorithms a
 
 -Requires the number of clusters to be specified in advance
 
-### DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+### DBSCAN (Density-Based Spatial Clustering of Applications with Noise):
 
 -Density-based clustering algorithm
 
@@ -58,3 +58,13 @@ This repository explores several foundational unsupervised learning algorithms a
 -Identifies noise and outliers explicitly
 
 -Effective for arbitrarily shaped clusters
+
+## Goals
+
+-Explore structure in unlabeled datasets
+
+-Compare clustering techniques under different assumptions
+
+-Demonstrate practical unsupervised learning workflows
+
+-Highlight strengths and limitations of each method
