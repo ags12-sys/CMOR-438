@@ -26,15 +26,15 @@ The goal is to explore model building, evaluation, and reproducibility, while in
 ## Supervised Learning
 The **Supervised Learning** folder contains Jupyter notebooks implementing:
 
-- Perceptron
-- Gradient Descent
-- Linear Regression
-- Logistic Regression
-- Neural Networks
-- Multilayer Perceptron (MLP)
-- K-Nearest Neighbors (KNN)
 - Decision Trees
 - Ensemble methods
+- Gradient Descent
+- K-Nearest Neighbors (KNN)
+- Linear Regression
+- Logistic Regression
+- Multilayer Perceptron (MLP)
+- Neural Networks
+- Perceptron
 - Random Forest
 
 **Highlights:**
@@ -48,9 +48,9 @@ The **Supervised Learning** folder contains Jupyter notebooks implementing:
 ## Unsupervised Learning
 The **Unsupervised Learning** folder contains Jupyter notebooks implementing:
 
-- Principal Component Analysis (PCA)
-- K-Means Clustering
 - DBSCAN
+- K-Means Clustering
+- Principal Component Analysis (PCA)
 
 **Highlights:**
 - Data standardization for distance-based algorithms.
