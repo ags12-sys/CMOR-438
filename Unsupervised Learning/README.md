@@ -1,70 +1,67 @@
-# Unsupervised Learning
+## Unsupervised Learning
 
-Unsupervised learning is a class of machine learning techniques where models are trained on unlabeled data. Instead of predicting known outputs, these algorithms aim to discover hidden structure, patterns, or relationships within the data.
+The **Unsupervised Learning** section explores algorithms that discover structure and patterns in **unlabeled data**. Unlike supervised learning, there is no target variable; models attempt to **cluster, reduce dimensions, or identify patterns** directly from features.
 
+This section uses the **Wine Quality Dataset** to demonstrate clustering and dimensionality reduction techniques. These notebooks provide practical understanding of feature transformations, clustering evaluation, and visualization.
 
-Unsupervised learning is commonly used for:
+---
 
--Dimensionality reduction
+### Algorithms Implemented
 
--Clustering
+1. **Principal Component Analysis (PCA)**
+   - Dimensionality reduction technique that transforms correlated features into orthogonal components.
+   - Captures maximum variance in fewer dimensions.
+   - Useful for visualization and reducing noise in high-dimensional data.
+   - Includes cumulative explained variance plots to determine the number of components.
 
--Data exploration and visualization
+2. **K-Means Clustering**
+   - Partitions data into k clusters by minimizing within-cluster distances.
+   - Includes silhouette score analysis to determine optimal k.
+   - Uses standardized features and 2D PCA projection for visualization.
+   - Highlights cluster characteristics and relationship between chemical features.
 
--Outlier detection
+3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
+   - Density-based clustering algorithm that identifies clusters and outliers.
+   - Does not require predefining the number of clusters.
+   - Includes parameter tuning for eps and min_samples.
+   - PCA projection used for visualization of clusters and noise points.
 
+---
 
-This repository explores several foundational unsupervised learning algorithms and demonstrates how they can be used to gain insights into complex datasets.
+### Features & Highlights
 
-## Key Concepts
+- **Data Preprocessing**
+  - Standardization of features is applied to distance-based and density-based algorithms.
+  - Handles scaling and normalization to ensure meaningful distance calculations.
 
--Unlabeled Data: No predefined target variable
+- **Model Training & Evaluation**
+  - PCA visualizations and explained variance analysis for dimensionality insights.
+  - K-Means clustering evaluated using silhouette scores to validate cluster quality.
+  - DBSCAN identifies clusters and noise points, highlighting outliers.
 
--Similarity Measures: Distance or density-based relationships
+- **Testing & Reproducibility**
+  - Inline assertions ensure cluster shapes, PCA component orthogonality, and correct labeling.
+  - Reproducibility is tested by confirming results are consistent with fixed random states.
 
--Feature Space: High-dimensional representations of data
+- **Visualization**
+  - 2D PCA projections for K-Means and DBSCAN clusters.
+  - Cumulative explained variance plots for PCA.
+  - Visual separation of clusters and noise for interpretability.
 
--Structure Discovery: Identifying latent patterns or groupings
+- **Insights & Discussion**
+  - Each notebook concludes with a bullet-point summary discussing:
+    - Patterns discovered in the data
+    - Cluster characteristics
+    - Dataset structure revealed through dimensionality reduction
+    - Limitations and practical considerations
 
-## Algorithms Implemented
-### Principal Component Analysis (PCA):
+   ---
 
--Linear dimensionality reduction technique
+### Practical Notes
 
--Transforms features into orthogonal principal components
+- PCA is essential for visualizing high-dimensional datasets and reducing noise.
+- K-Means requires the number of clusters (k) to be determined; silhouette analysis helps.
+- DBSCAN identifies clusters based on density, automatically flagging noise points.
+- Standardizing features is critical for distance-based algorithms (K-Means, DBSCAN).
+- Inline testing ensures calculations, cluster assignments, and PCA components are correct and reproducible.
 
--Maximizes variance captured in lower dimensions
-
--Commonly used for visualization, noise reduction, and preprocessing
-
-### K-Means Clustering:
-
--Partition-based clustering algorithm
-
--Assigns data points to k clusters by minimizing within-cluster variance
-
--Sensitive to feature scaling and initialization
-
--Requires the number of clusters to be specified in advance
-
-### DBSCAN (Density-Based Spatial Clustering of Applications with Noise):
-
--Density-based clustering algorithm
-
--Groups points based on local density
-
--Automatically detects the number of clusters
-
--Identifies noise and outliers explicitly
-
--Effective for arbitrarily shaped clusters
-
-## Goals
-
--Explore structure in unlabeled datasets
-
--Compare clustering techniques under different assumptions
-
--Demonstrate practical unsupervised learning workflows
-
--Highlight strengths and limitations of each method
