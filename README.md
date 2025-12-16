@@ -1,36 +1,59 @@
 # CMOR-438: Data Science and Machine Learning
 
-**Purpose:** To implement supervised and unsupervised machine learning using the real data sets Wine Quality and California Housing.
+## Overview
+This repository demonstrates implementations of **supervised** and **unsupervised** machine learning algorithms using real datasets:
 
-**Libraries:** This repository uses the libraries SciKit Learn, Matplotlib, NumPy, Pandas, and Seaborn to implement both the supervised and unsupervised learning models. 
+- **Wine Quality Dataset** (red wine chemical properties)
+- **California Housing Dataset** (housing prices)
+
+The goal is to explore model building, evaluation, and reproducibility, while including **inline testing** for correctness and robustness.
+
+---
+
+## Libraries Used
+- Python 3.x
+- [NumPy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
+
+---
+
+## Repository Structure
 
 ---
 
 ## Supervised Learning
-
-The Supervised Learning folder contains implementations of the following models:
+The **Supervised Learning** folder contains Jupyter notebooks implementing:
 
 - Perceptron
 - Gradient Descent
 - Linear Regression
 - Logistic Regression
 - Neural Networks
+- Multilayer Perceptron (MLP)
 - K-Nearest Neighbors (KNN)
 - Decision Trees
 - Ensemble methods
-- Multilayer Perceptron (MLP)
 - Random Forest
 
-Each of these folders includes a README.md that describes the model details and explains how to reproduce the provided results.
+**Highlights:**
+- Clear dataset preprocessing steps.
+- Training, evaluation, and visualization included.
+- Inline testing ensures model correctness and reproducibility.
+- Bullet-point summaries explain key takeaways.
 
 ---
 
 ## Unsupervised Learning
-
-The Unsupervised Learning folder contains implementations of the following models:
+The **Unsupervised Learning** folder contains Jupyter notebooks implementing:
 
 - Principal Component Analysis (PCA)
 - K-Means Clustering
 - DBSCAN
 
-Each of these folders includes a README.md that describes the model details and explains how to reproduce the provided results.
+**Highlights:**
+- Data standardization for distance-based algorithms.
+- PCA visualizations for dimensionality reduction.
+- K-Means and DBSCAN clustering with 2D PCA projections.
+- Inline testing ensures correct clustering and reproducibility.
